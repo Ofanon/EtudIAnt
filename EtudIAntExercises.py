@@ -3,7 +3,7 @@ import google.generativeai as genai
 import PIL.Image
 import streamlit as st
 
-genai.configure(api_key="AIzaSyCprFH7QKpCAGBv9meQPy2se-PFli9_QJo")
+genai.configure(api_key="")
 model = genai.GenerativeModel(model_name="gemini-1.5-flash-002")
 
 st.title('EtudIAnt')
